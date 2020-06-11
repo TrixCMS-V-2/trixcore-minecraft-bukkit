@@ -1,0 +1,21 @@
+name: TrixCore
+main: eu.trixcms.trixcore.bukkit.TrixCore
+version: 1.0.0
+authors: [antoineok, iambluedev]
+load: STARTUP
+website: https://trixcms.eu
+commands:
+  trixcore:
+    description: Commands to manage TrixCore
+    usage: |
+      Use /help trixcore [subcommand] for more information
+      /trixcore reset - Reset the link
+      /trixcore setup <port> - Setup custom port
+  trixcore reset:
+    description: Reset plugin configuration
+    usage: /trixcore reset
+    permission: trixcore.reset
+  trixcore setup:
+    description: Setup custom port
+    usage: /trixcore setup <port>
+    permission: trixcore.setup
