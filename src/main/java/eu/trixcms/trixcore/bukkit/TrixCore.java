@@ -35,7 +35,6 @@ import java.util.concurrent.ExecutionException;
 public class TrixCore extends JavaPlugin implements Listener, IConfig, ICommandExecutor<CommandContainer> {
 
     private static final Logger logger = LoggerFactory.getLogger(TrixCore.class);
-    private static final int TRIXCORE_PLUGIN_ID = 6622;
 
     @Getter
     private static TrixCore instance;
@@ -120,7 +119,6 @@ public class TrixCore extends JavaPlugin implements Listener, IConfig, ICommandE
             logger.error(translator.of("UNKNOWN_SAVER"), e);
         }
 
-        new Metrics(this, TRIXCORE_PLUGIN_ID);
         getServer().getPluginManager().registerEvents(this, this);
     }
 
