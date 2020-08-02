@@ -3,7 +3,7 @@ TrixCore est un plugin permettant de relier vos serveurs à votre cms ! Cette ve
 
 ## Téléchargement
 
-[TrixCore Bukkit v1.0.1](https://github.com/TrixCMS-V-2/trixcore-minecraft-bukkit/releases/download/v1.0.1/trixcore-bukkit-1.0.1.jar)
+[TrixCore Bukkit v1.0.2](https://github.com/TrixCMS-V-2/trixcore-minecraft-bukkit/releases/download/v1.0.2/trixcore-bukkit-1.0.2.jar)
 
 ## Installation
 
